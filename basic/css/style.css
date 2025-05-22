@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Pretendard-Regular";
+}
+
+.frontPage-wrap {
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+header .top-banner {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #333;
+}
+header .top-banner .top-banner-text {
+  display: inline-block;
+  width: fit-content;
+  font-size: 14px;
+  margin: auto;
+  color: #fff;
+}
+header .top-banner .top-banner-close {
+  position: absolute;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  right: 15px;
+}
+header .header-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  width: 100%;
+}
+header .header-inner h1 {
+  position: absolute;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+header .header-inner h1 a span {
+  display: block;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+header .header-inner .gnb-menu .gnb-menu-inner {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+header .header-inner .gnb-menu .gnb-menu-inner li a {
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #000;
+}
+header .header-inner .gnb-menu .gnb-menu-inner::before {
+  content: "";
+  display: block;
+  padding: 12px;
+  background: url("../image/list.png") no-repeat left center;
+  background-size: cover;
+  margin-right: 30px;
+  cursor: pointer;
+}
+header .header-inner .user-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+}
+header .header-inner .user-menu .user-utils {
+  display: flex;
+  justify-content: space-between;
+  width: 7vw;
+}
+header .header-inner .user-menu .user-utils a {
+  color: #000;
+  font-size: 0.7em;
+}
+header .header-inner .user-menu .user-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 5.5vw;
+}
+header .header-inner .user-menu .user-icons a {
+  color: #000;
+}
+header .header-inner .user-menu .user-icons a i {
+  font-size: 1.5em;
+}/*# sourceMappingURL=style.css.map */
